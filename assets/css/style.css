@@ -305,10 +305,10 @@ header {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-          font-size: 13px;
+          font-size: 20px;
           text-transform: uppercase;
           letter-spacing: 2px;
-          color: #fff; }
+          color: #FEFEFE; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
             background: #000 !important; }
           @media screen and (max-width: 480px) {
@@ -822,7 +822,7 @@ header {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 400;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -842,9 +842,9 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #0e27fb;
+  background: #5B6C83;
   color: #fff;
-  border: 2px solid #0e27fb; }
+  border: 2px solid #5B6C83; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #273dfb !important;
     border-color: #273dfb !important; }
