@@ -46,9 +46,10 @@ class Login extends CI_Controller
                     $this->session->set_userdata('user_in', $user_data);
                     $this->session->set_userdata('logged_in', $session_data);
                     if ($result->position == 'admin') {
-                        redirect(base_url() . 'admin/home');
+                        redirect(base_url() . 'adminhome');
                     } else {
                         redirect(base_url() . 'home');
+                       
                     }
                 }
             } else {
