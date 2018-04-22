@@ -53,6 +53,7 @@
                     <li><a href="blog.php">Case Studies</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="contact.php">Contact</a></li>
+                    <li><a href="login">Login</a></li>
                 </ul>
             </div>
         </div>
