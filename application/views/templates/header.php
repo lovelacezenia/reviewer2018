@@ -76,7 +76,7 @@
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
                                     <div class = "login">
-                                        <p><a class="btn btn-primary btn-learn">Log in</a></p>
+                                        <p><a class="btn btn-primary btn-learn" href="login">Log in</a></p>
                                     </div>
                                     <h2>Welcome &amp; Enjoy</h2>
                                     <h1>Hello! I'm Simon, an illustrator from London</h1>
