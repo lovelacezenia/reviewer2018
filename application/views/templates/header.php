@@ -48,11 +48,10 @@
             <div class="colorlib-table-cell js-fullheight">
                 <ul>
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="work.php">Work</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="blog.php">Case Studies</a></li>
+                    <li><a href="notes.php">Notes</a></li>
+                    <li><a href="quiz.php">Quizzes</a></li>
+                    <li><a href="video.php">Video Tutorials</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -70,7 +69,7 @@
                 <aside id="colorlib-hero">
             <div class="flexslider">
                 <ul class="slides">
-                <li style="background-image: url(assets/images/img_bg_1.jpg);">
+                <li style="background-image: url(assets/images/slide1.png);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row">
