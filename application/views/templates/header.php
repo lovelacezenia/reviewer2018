@@ -76,9 +76,11 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
+                                    <div class = "login">
+                                        <p><a class="btn btn-primary btn-learn">Log in</a></p>
+                                    </div>
                                     <h2>Welcome &amp; Enjoy</h2>
                                     <h1>Hello! I'm Simon, an illustrator from London</h1>
-                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
                                 </div>
                             </div>
                         </div>
@@ -90,9 +92,11 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
+                                    <div class = "login">
+                                        <p><a class="btn btn-primary btn-learn">Log in</a></p>
+                                    </div>
                                     <h2>Building Site</h2>
                                     <h1>We Build Modern &amp; Functional Website</h1>
-                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
                                 </div>
                             </div>
                         </div>
@@ -104,9 +108,11 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
+                                    <div class = "login">
+                                        <p><a class="btn btn-primary btn-learn">Log in</a></p>
+                                    </div>
                                     <h2>Work</h2>
                                     <h1>Handcrafted Design For The Digital World</h1>
-                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
                                 </div>
                             </div>
                         </div>
