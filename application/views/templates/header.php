@@ -48,10 +48,12 @@
             <div class="colorlib-table-cell js-fullheight">
                 <ul>
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="notes.php">Notes</a></li>
-                    <li><a href="quiz.php">Quizzes</a></li>
-                    <li><a href="video.php">Video Tutorials</a></li>
+                    <li><a href="work.php">Work</a></li>
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="blog.php">Case Studies</a></li>
                     <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="login">Login</a></li>
                 </ul>
             </div>
         </div>
@@ -61,6 +63,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
+                        <div class="colorlib-navbar-brand">
+                            <a class="colorlib-logo" href="index.html">Suitcase</a>
+                        </div>
                         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
                     </div>
                 </div>
@@ -69,17 +74,15 @@
                 <aside id="colorlib-hero">
             <div class="flexslider">
                 <ul class="slides">
-                <li style="background-image: url(assets/images/slide1.png);">
+                <li style="background-image: url(assets/images/img_bg_1.jpg);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <div class = "login">
-                                        <p><a class="btn btn-primary btn-learn" href="login">Log in</a></p>
-                                    </div>
                                     <h2>Welcome &amp; Enjoy</h2>
                                     <h1>Hello! I'm Simon, an illustrator from London</h1>
+                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
                                 </div>
                             </div>
                         </div>
@@ -91,11 +94,9 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <div class = "login">
-                                        <p><a class="btn btn-primary btn-learn">Log in</a></p>
-                                    </div>
                                     <h2>Building Site</h2>
                                     <h1>We Build Modern &amp; Functional Website</h1>
+                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
                                 </div>
                             </div>
                         </div>
@@ -107,11 +108,9 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <div class = "login">
-                                        <p><a class="btn btn-primary btn-learn">Log in</a></p>
-                                    </div>
                                     <h2>Work</h2>
                                     <h1>Handcrafted Design For The Digital World</h1>
+                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
                                 </div>
                             </div>
                         </div>
