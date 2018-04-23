@@ -1,8 +1,14 @@
+<?php
+if(!isset($this->session->userdata['logged_in'])){
+    header('location: login');
+}
+?>
+
 <div id="colorlib-work">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>Our Works</h2>
+						<h2>WEBTEK FINALS</h2>
 					</div>
 				</div>
 				<div class="row row-padded-bottom">
@@ -24,50 +30,6 @@
 								<span class="icon"><i class="icon-heart-outline"></i></span>
 								<p class="tag"><span>Web Design</span>, <span>UI</span></p>
 								<h3>Work 02</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-3.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Logo</span>, <span>Illustration</span></p>
-								<h3>Work 03</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-4.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Apps</span>, <span>Brand Identity</span></p>
-								<h3>Work 04</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-5.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Brand Identity</span>, <span>Logo</span></p>
-								<h3>Work 05</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-6.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Brand Identity</span>, <span>Logo</span></p>
-								<h3>Work 06</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
