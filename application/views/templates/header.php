@@ -22,7 +22,6 @@
     <meta name="twitter:card" content="" />
 
     
-    
     <!-- Animate.css -->
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -70,9 +69,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="colorlib-navbar-brand">
-                            <a class="colorlib-logo" href="index.html">Suitcase</a>
-                        </div>
                         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
                     </div>
                 </div>
@@ -81,7 +77,7 @@
                 <aside id="colorlib-hero">
             <div class="flexslider">
                 <ul class="slides">
-                <li style="background-image: url(assets/images/img_bg_1.jpg);">
+                <li style="background-image: url(assets/images/slide1.png);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row">
