@@ -28,7 +28,6 @@ class Login extends CI_Controller
             );
             $result = $this->user_db->login($data);
             if ($result == TRUE) {
-
                 $idno = $this->input->post('idno');
                 if ($result != false) {
                     
@@ -45,11 +44,10 @@ class Login extends CI_Controller
                         'contact_no' => $result->contact_no,);
                     $this->session->set_userdata('user_in', $user_data);
                     $this->session->set_userdata('logged_in', $session_data);
-                    if ($result->position == 'admin') {
+                    if ($result->position === 'Admin') {
                         redirect(base_url() . 'adminhome');
                     } else {
                         redirect(base_url() . 'home');
-                       
                     }
                 }
             } else {

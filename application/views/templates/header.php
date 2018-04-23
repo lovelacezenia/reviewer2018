@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,13 +48,19 @@
         <div class="js-fullheight colorlib-table">
             <div class="colorlib-table-cell js-fullheight">
                 <ul>
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="work.php">Work</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="blog.php">Case Studies</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="login">Login</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="work">Work</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="blog">Case Studies</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <?php
+                    if(!isset($this->session->userdata['logged_in'])){
+                        echo '<li><a href="login">Login</a></li>';
+                    }else{
+                        echo '<li><a href="login/logout">Logout</a></li>';
+                    }
+                    ?>
                 </ul>
             </div>
         </div>

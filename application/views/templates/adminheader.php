@@ -1,3 +1,8 @@
+<?php
+if(!isset($this->session->userdata['logged_in'])){
+    header('location: login');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +78,7 @@
                                 <ul class="dropdown-user">
                                     <li><a href="#"><i class="ti-user"></i> Profile</a></li>
                                     <li><a href="#"><i class="ti-settings"></i> Setting</a></li>
-                                    <li><a href="login"><i class="fa fa-power-off"></i> Logout</a></li>
+                                    <li><a href="login/logout"><i class="fa fa-power-off"></i> Logout</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -114,17 +119,3 @@
             <!-- End Sidebar scroll-->
         </div>
         <!-- End Left Sidebar  -->
-        <!-- Page wrapper  -->
-        <div class="page-wrapper">
-            <!-- Bread crumb -->
-            <div class="row page-titles">
-                <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
-                <div class="col-md-7 align-self-center">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Dashboard</li>
-                    </ol>
-                </div>
-            </div>
-            <!-- End Bread crumb -->
