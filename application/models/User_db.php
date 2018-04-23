@@ -1,5 +1,7 @@
 <?php
-class User_db extends CI_Model {
+
+class User_db extends CI_Model
+{
 // Read data using username and password
     public function login($data)
     {
@@ -17,6 +19,21 @@ class User_db extends CI_Model {
                 return $uname;
             }
         }
-            return false;
+        return false;
+    }
+
+    //forsignup
+    public function signup()
+    {
+        $data = array(
+            'firstname' => $this->input->post('firstname'),
+            'lastname' => $this->input->post('lastname'),
+            'email' => $this->input->post('email'),
+            'idno' => $this->input->post('idno'),
+            'password' => $this->input->post('password'),
+            'contact_no' => $this->input->post('contact_no'),
+            'position' => $this->input->post('position')
+        );
+        $this->db->insert('user',$data);
     }
 }

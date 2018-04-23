@@ -70,4 +70,10 @@ class Login extends CI_Controller
         $data['message_display'] = 'Successfully Logout';
         redirect('login');
     }
+
+    //signup
+    public function signup(){
+        $this->user_db->signup();
+        redirect('login');
+    }
 }
