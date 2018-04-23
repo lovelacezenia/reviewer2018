@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </li>
-                <li style="background-image: url(assets/images/img_bg_3.jpg);">
+                <li style="background-image: url(assets/images/slide3.png);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row">
