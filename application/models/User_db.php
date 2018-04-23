@@ -25,6 +25,8 @@ class User_db extends CI_Model
     //forsignup
     public function signup()
     {
+
+
         $data = array(
             'firstname' => $this->input->post('firstname'),
             'lastname' => $this->input->post('lastname'),
@@ -32,6 +34,7 @@ class User_db extends CI_Model
             'idno' => $this->input->post('idno'),
             'password' => $this->input->post('password'),
             'contact_no' => $this->input->post('contact_no'),
+            'class_id' => $this->input->post('classcode'),
             'position' => $this->input->post('position')
         );
         $this->db->insert('user',$data);

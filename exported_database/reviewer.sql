@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 23, 2018 at 06:43 AM
+-- Generation Time: Apr 23, 2018 at 09:39 AM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 5.6.35
 
@@ -27,9 +27,32 @@ USE `reviewer`;
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `classcode`
+--
+
+DROP TABLE IF EXISTS `classcode`;
+CREATE TABLE `classcode` (
+  `class_id` int(15) NOT NULL,
+  `classcode` varchar(250) NOT NULL,
+  `description` varchar(250) NOT NULL,
+  `room` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `classcode`
+--
+
+INSERT INTO `classcode` (`class_id`, `classcode`, `description`, `room`) VALUES
+(1, '9345', 'IMCF', 'D323'),
+(2, '9386', 'Webtek', 'D515');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `user`
 --
 
+DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `user_id` int(250) NOT NULL,
   `firstname` varchar(250) NOT NULL,
@@ -40,20 +63,27 @@ CREATE TABLE `user` (
   `email` varchar(250) NOT NULL,
   `timestamp` timestamp(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
   `position` varchar(250) NOT NULL,
-  `Status` varchar(250) NOT NULL DEFAULT 'Active'
+  `Status` varchar(250) NOT NULL DEFAULT 'Active',
+  `class_id` varchar(15) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`user_id`, `firstname`, `lastname`, `idno`, `contact_no`, `password`, `email`, `timestamp`, `position`, `Status`) VALUES
-(1, 'lovelace', 'oliva', 2144074, '09481265243', '1234', '2144074@gmail.com', '2018-04-18 17:05:05.031226', 'Student', 'active'),
-(2, 'lace', 'oliva', 2144077, '09481268745', '1234', 'laceoliva@gmail.com', '2018-04-21 17:01:02.000000', 'Admin', 'Active');
+INSERT INTO `user` (`user_id`, `firstname`, `lastname`, `idno`, `contact_no`, `password`, `email`, `timestamp`, `position`, `Status`, `class_id`) VALUES
+(1, 'Lovelace', 'Oliva', 2144074, '094868745151', '1234', 'oliva@gmail.com', '2018-04-23 07:26:27.166411', 'Admin', 'Active', '2');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `classcode`
+--
+ALTER TABLE `classcode`
+  ADD PRIMARY KEY (`class_id`),
+  ADD UNIQUE KEY `class_id` (`class_id`);
 
 --
 -- Indexes for table `user`
@@ -69,10 +99,16 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `classcode`
+--
+ALTER TABLE `classcode`
+  MODIFY `class_id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(250) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `user_id` int(250) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

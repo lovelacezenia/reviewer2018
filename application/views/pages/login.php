@@ -52,12 +52,12 @@ if (isset($this->session->userdata['logged_in'])) {
                                 <form role="form" action="" method="post" class="login-form">
                                     <div class="form-group">
                                         <label class="sr-only" for="form-username">ID Number</label>
-                                        <input type="text" name="idno" id="username" placeholder="Username..."
+                                        <input type="text" name="idno" placeholder="Username..."
                                                class="form-username form-control">
                                     </div>
                                     <div class="form-group">
                                         <label class="sr-only" for="form-password">Password</label>
-                                        <input type="password" name="password" id="password" placeholder="Password..."
+                                        <input type="password" name="password" placeholder="Password..."
                                                class="form-password form-control">
                                     </div>
                                     <div class="form-group">
@@ -103,12 +103,12 @@ if (isset($this->session->userdata['logged_in'])) {
                                 </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="form-username">ID Number</label>
-                                    <input type="text" name="idno" id="username" placeholder="Username..."
+                                    <input type="text" name="idno" placeholder="Username..."
                                            class="form-username form-control" required>
                                 </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="form-password">Password</label>
-                                    <input type="password" name="password" id="password" placeholder="Password..."
+                                    <input type="password" name="password" placeholder="Password..."
                                            class="form-password form-control" required>
                                 </div>
                                 <div class="form-group">
@@ -120,6 +120,12 @@ if (isset($this->session->userdata['logged_in'])) {
                                     <label class="sr-only" for="form-password">Contact no.</label>
                                     <input type="text" placeholder="contact no..." name="contact_no" id="contact_no"
                                            class="form-password form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only">Classcode</label>
+                                    <select name="classcode" id="classcode" class="form-control">
+
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="form-password">Position</label>
@@ -142,10 +148,10 @@ if (isset($this->session->userdata['logged_in'])) {
 
 <!-- Javascript -->
 <script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.backstretch.min.js"></script>
 <script src="assets/js/scripts.js"></script>
-<script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/reviewer.js"></script>
 
 <!--[if lt IE 10]>
