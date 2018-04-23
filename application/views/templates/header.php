@@ -9,18 +9,6 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
-
-  <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:description" content=""/>
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
-
     
     <!-- Animate.css -->
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -82,9 +70,8 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <h2>Welcome &amp; Enjoy</h2>
-                                    <h1>Hello! I'm Simon, an illustrator from London</h1>
-                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
+                                    <h2>insert sentence here</h2>
+                                    <h1>insert sentence here</h1>
                                 </div>
                             </div>
                         </div>
@@ -96,9 +83,8 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <h2>Building Site</h2>
-                                    <h1>We Build Modern &amp; Functional Website</h1>
-                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
+                                    <h2>insert sentence here</h2>
+                                    <h1>insert sentence here</h1>
                                 </div>
                             </div>
                         </div>
@@ -110,9 +96,8 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <h2>Work</h2>
-                                    <h1>Handcrafted Design For The Digital World</h1>
-                                        <p><a class="btn btn-primary btn-learn">Available For Hire!</a></p>
+                                    <h2>insert sentence here</h2>
+                                    <h1>insert sentence here</h1>
                                 </div>
                             </div>
                         </div>
