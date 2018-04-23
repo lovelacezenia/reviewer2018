@@ -48,11 +48,10 @@
             <div class="colorlib-table-cell js-fullheight">
                 <ul>
                     <li><a href="home">Home</a></li>
-                    <li><a href="work">Work</a></li>
-                    <li><a href="services">Services</a></li>
-                    <li><a href="blog">Case Studies</a></li>
+                    <li><a href="notes">Notes</a></li>
+                    <li><a href="quiz">Quiz</a></li>
+                    <li><a href="video">Video</a></li>
                     <li><a href="about">About</a></li>
-                    <li><a href="contact">Contact</a></li>
                     <?php
                     if(!isset($this->session->userdata['logged_in'])){
                         echo '<li><a href="login">Login</a></li>';
