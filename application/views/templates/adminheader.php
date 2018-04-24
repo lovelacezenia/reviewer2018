@@ -15,7 +15,7 @@ if(!isset($this->session->userdata['logged_in'])){
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
-    <title>Ela - Bootstrap Admin Dashboard Template</title>
+    <title>Admin</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -95,7 +95,7 @@ if(!isset($this->session->userdata['logged_in'])){
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
                         <li class="nav-label">Home</li>
-                        <li> <a href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</a>
+                        <li> <a href="adminhome" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard</a>
                         </li>
                         
                         <li class="nav-label">Create Quiz</li>
@@ -106,10 +106,22 @@ if(!isset($this->session->userdata['logged_in'])){
                                 <li><a href="table-datatable.html">Data Tables</a></li>
                             </ul>
                         </li>
-
+                        <li class="nav-label">Create Classcode</li>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-book"></i><span class="hide-menu">Classcode</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="classcode">Classcode</a></li>
+                            </ul>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="viewclasscode">View Classcode</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-label">View Scores</li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-book"></i><span class="hide-menu">Logs</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="table-datatable.html">User</a></li>
+                                <li><a href="viewscore">Score</a></li>
+                            </ul>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="enrolledstudent">Enrolled Students</a></li>
                             </ul>
                         </li>
                     </ul>
