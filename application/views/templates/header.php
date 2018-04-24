@@ -70,8 +70,8 @@
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <h2>insert sentence here</h2>
-                                    <h1>insert sentence here</h1>
+                                    <h2>Sharing your knowledge with others,</h2>
+                                    <h1>Does not make you less important.</h1>
                                 </div>
                             </div>
                         </div>
