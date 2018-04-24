@@ -64,7 +64,7 @@
                 <aside id="colorlib-hero">
             <div class="flexslider">
                 <ul class="slides">
-                <li style="background-image: url(assets/images/slide1.png);">
+                <li style="background-image: url(assets/images/slide5.jpg);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row">
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </li>
-                <li style="background-image: url(assets/images/webtek.png);">
+                <li style="background-image: url(assets/images/slide6.png);">
                     <div class="overlay"></div>
                     <div class="container">
                         <div class="row">
