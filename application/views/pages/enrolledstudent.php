@@ -22,49 +22,19 @@
                                 <h4 class="card-title">Enrolled Students</h4>
                                 <h6 class="card-subtitle">Data table example</h6>
                                 <div class="table-responsive m-t-40">
-                                    <table id="myTable" class="table table-bordered table-striped">
+                                    <table id="myTable" class="table table-bordered table-striped" data-pagination="true" data-search="true"
+                                       data-toggle="table"
+                                       data-url="">
                                         <thead>
                                             <tr>
-                                                <th>Timestamp</th>
-                                                <th>ID Number</th>
-                                                <th>Firstname</th>
-                                                <th>Lastname</th>
-                                                <th>Score</th>
-                                                <th>Total Score</th>
-                                                <th>Date</th>
+                                                <th data-sortable="true" data-field="timestamp">Timestamp</th>
+                                                <th data-sortable="true" data-field="idno">ID Number</th>
+                                                <th data-sortable="true" data-field="firstname">Firstname</th>
+                                                <th data-sortable="true" data-field="lastname">Lastname</th>
+                                                <th data-sortable="true" data-field="classcode">Classcode</th>
+                                                <th data-sortable="true" data-field="date">Date</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <th>Timestamp</th>
-                                                <th>ID Number</th>
-                                                <th>Firstname</th>
-                                                <th>Lastname</th>
-                                                <th>Score</th>
-                                                <th>Total Score</th>
-                                                <th>Date</th>
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
-                                            <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                            </tr>
-                                        </tbody>
                                     </table>
                                 </div>
                             </div>

@@ -1,8 +1,10 @@
--- MySQL dump 10.13  Distrib 5.7.9, for Win64 (x86_64)
+CREATE DATABASE  IF NOT EXISTS `reviewer` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `reviewer`;
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: reviewer
 -- ------------------------------------------------------
--- Server version	5.5.5-10.1.30-MariaDB
+-- Server version	5.7.19
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -27,6 +29,9 @@ CREATE TABLE `classcode` (
   `classcode` varchar(250) NOT NULL,
   `description` varchar(250) NOT NULL,
   `room` varchar(20) NOT NULL,
+  `time_and_days` varchar(250) NOT NULL,
+  `title` varchar(250) NOT NULL,
+  `units` int(4) NOT NULL,
   PRIMARY KEY (`class_id`),
   UNIQUE KEY `class_id` (`class_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
@@ -38,8 +43,33 @@ CREATE TABLE `classcode` (
 
 LOCK TABLES `classcode` WRITE;
 /*!40000 ALTER TABLE `classcode` DISABLE KEYS */;
-INSERT INTO `classcode` VALUES (1,'9345','IMCF','D323'),(2,'9386','Webtek','D515');
+INSERT INTO `classcode` VALUES (1,'9345B','Web System and Technologies laboratory','D323','4:00-5:30 THS','IT 325',1),(2,'9364A','Web System and Technologies','D515','1:00-2:00TF','IT 324',2);
 /*!40000 ALTER TABLE `classcode` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `scores`
+--
+
+DROP TABLE IF EXISTS `scores`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `scores` (
+  `score_id` int(11) NOT NULL AUTO_INCREMENT,
+  `score` int(250) NOT NULL,
+  `quiz_date` varchar(250) NOT NULL,
+  `total_score` int(250) NOT NULL,
+  PRIMARY KEY (`score_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `scores`
+--
+
+LOCK TABLES `scores` WRITE;
+/*!40000 ALTER TABLE `scores` DISABLE KEYS */;
+/*!40000 ALTER TABLE `scores` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -87,4 +117,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-23 18:46:15
+-- Dump completed on 2018-04-26 18:56:53

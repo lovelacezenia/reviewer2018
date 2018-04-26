@@ -124,7 +124,6 @@ if (isset($this->session->userdata['logged_in'])) {
                                 <div class="form-group">
                                     <label class="sr-only">Classcode</label>
                                     <select name="classcode" id="classcode" class="form-control">
-
                                     </select>
                                 </div>
                                 <div class="form-group">
