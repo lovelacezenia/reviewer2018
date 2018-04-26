@@ -20,51 +20,22 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Classcode</h4>
-                                <h6 class="card-subtitle">Data table example</h6>
-                                <button type="button" class="btn btn-primary m-b-10 m-l-5">Create Classcode</button>
+                                <button type="button" class="btn btn-primary">Create Classcode</button>
                                 <div class="table-responsive m-t-40">
-                                    <table id="myTable" class="table table-bordered table-striped">
+                                    <table id="myTable" class="table table-bordered table-striped" data-pagination="true" data-search="true"
+                                       data-toggle="table"
+                                       data-url="">
                                         <thead>
                                             <tr>
-                                                <th>Timestamp</th>
-                                                <th>Classcode</th>
-                                                <th>Title</th>
-                                                <th>Decription</th>
-                                                <th>Units</th>
-                                                <th>Time and Days</th>
-                                                <th>Room</th>
+                                                <th data-sortable="true" data-field="timestamp">Timestamp</th>
+                                                <th data-sortable="true" data-field="classcode">Classcode</th>
+                                                <th data-sortable="true" data-field="title">Title</th>
+                                                <th data-sortable="true" data-field="description">Decription</th>
+                                                <th data-sortable="true" data-field="units">Units</th>
+                                                <th data-sortable="true" data-field="time_and_days">Time and Days</th>
+                                                <th data-sortable="true" data-field="room">Room</th>
                                             </tr>
                                         </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <th>Timestamp</th>
-                                                <th>Classcode</th>
-                                                <th>Title</th>
-                                                <th>Decription</th>
-                                                <th>Units</th>
-                                                <th>Time and Days</th>
-                                                <th>Room</th>
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
-                                            <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                                <td>2011/04/25</td>
-                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
