@@ -28,7 +28,7 @@
 						<div class="services">
 							<span class="icon"><i class="icon-paperplane"></i></span>
 							<div class="desc">
-								<h3>Graham Ross Flores</h3>
+								<h3>Graham Ross Flora</h3>
 								<p>description</p>
 							</div>
 						</div>
