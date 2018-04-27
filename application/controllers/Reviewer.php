@@ -29,4 +29,9 @@ class Reviewer extends CI_Controller
         echo json_encode($this->rm->getEnrolledstudent());
     }
 
+    public function createclasscode(){
+        $this->rm->createclasscode();
+        redirect('classcode');
+    }
+
 }
