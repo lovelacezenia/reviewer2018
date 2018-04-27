@@ -17,4 +17,12 @@ class Reviewer extends CI_Controller
     public function getClasscode(){
         echo json_encode($this->rm->getClasscode());
     }
+
+    public function getViewclasscode(){
+        echo json_encode($this->rm->getViewclasscode());
+    }
+    public function getScores(){
+        echo json_encode($this->rm->getScores());
+    }
+
 }

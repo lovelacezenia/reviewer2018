@@ -24,13 +24,12 @@
                                 <div class="table-responsive m-t-40">
                                     <table id="myTable" class="table table-bordered table-striped" data-pagination="true" data-search="true"
                                        data-toggle="table"
-                                       data-url="">
+                                       data-url="Reviewer/getScores">
                                         <thead>
                                             <tr>
                                                 <th data-sortable="true" data-field="timestamp">Timestamp</th>
                                                 <th data-sortable="true" data-field="idno">ID Number</th>
-                                                <th data-sortable="true" data-field="firstname">Firstname</th>
-                                                <th data-sortable="true" data-field="lastname">Lastname</th>
+                                                <th data-sortable="true" data-field="name">Firstname</th>
                                                 <th data-sortable="true" data-field="score">Score</th>
                                                 <th data-sortable="true" data-field="total_score">Total Score</th>
                                                 <th data-sortable="true" data-field="quiz_date">Date</th>
