@@ -29,6 +29,12 @@
     <script src="assets/js/lib/owl-carousel/owl.carousel.min.js"></script>
     <script src="assets/js/lib/owl-carousel/owl.carousel-init.js"></script>
     <script src="assets/js/lib/jquery/scripts.js"></script>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+
     <!-- scripit init-->
 
     <script src="assets/js/custom.min.js"></script>
