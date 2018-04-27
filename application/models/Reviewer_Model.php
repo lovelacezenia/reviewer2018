@@ -22,4 +22,17 @@ class Reviewer_Model extends CI_Model
                     ->get('classcode')
                     ->result_array();
     }
+    
+    //for create classcode
+    public function createclasscode(){
+        $data = array(
+            'classcode' => $this->input->post('classcode'),
+            'course_no' => $this->input->post('course_no'),
+            'description' => $this->input->post('description'),
+            'units' => $this->input->post('units'),
+            'time_and_days' => $this->input->post('time_and_days'),
+            'room'=> $this->input->post('room')
+            );
+        $this->db->insert('classcode',$data);
+    }
 }

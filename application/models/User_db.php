@@ -39,4 +39,5 @@ class User_db extends CI_Model
         );
         $this->db->insert('user',$data);
     }
+    
 }
