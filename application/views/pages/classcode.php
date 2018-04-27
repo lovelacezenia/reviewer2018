@@ -20,8 +20,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Classcode</h4>
-                                <!-- Trigger the modal with a button -->
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                                <button type="button" class="btn btn-primary">Create Classcode</button>
                                 <div class="table-responsive m-t-40">
                                     <table id="myTable" class="table table-bordered table-striped" data-pagination="true" data-search="true"
                                        data-toggle="table"
@@ -49,24 +48,4 @@
             <!-- End Container fluid  -->
         </div>
         <!-- End Page wrapper  -->
-        <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
     </div>
