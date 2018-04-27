@@ -16,7 +16,7 @@
                                             <tr>
                                                 <th data-sortable="true" data-field="timestamp">Timestamp</th>
                                                 <th data-sortable="true" data-field="idno">ID Number</th>
-                                                <th data-sortable="true" data-field="name">Firstname</th>
+                                                <th data-sortable="true" data-field="name">Name</th>
                                                 <th data-sortable="true" data-field="score">Score</th>
                                                 <th data-sortable="true" data-field="total_score">Total Score</th>
                                                 <th data-sortable="true" data-field="quiz_date">Date</th>

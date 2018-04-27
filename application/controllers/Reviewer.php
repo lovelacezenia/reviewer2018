@@ -25,4 +25,8 @@ class Reviewer extends CI_Controller
         echo json_encode($this->rm->getScores());
     }
 
+    public function getEnrolledstudent(){
+        echo json_encode($this->rm->getEnrolledstudent());
+    }
+
 }
