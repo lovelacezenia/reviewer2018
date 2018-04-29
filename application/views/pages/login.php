@@ -52,7 +52,7 @@ if (isset($this->session->userdata['logged_in'])) {
                                 <form role="form" action="" method="post" class="login-form">
                                     <div class="form-group">
                                         <label class="sr-only" for="form-username">ID Number</label>
-                                        <input type="text" name="idno" placeholder="Username..."
+                                        <input type="text" name="idno" min="0" placeholder="Username..."
                                                class="form-username form-control">
                                     </div>
                                     <div class="form-group">
@@ -103,7 +103,7 @@ if (isset($this->session->userdata['logged_in'])) {
                                 </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="form-username">ID Number</label>
-                                    <input type="text" name="idno" min="0" placeholder="Username..."
+                                    <input type="text" name="idno" min="0" placeholder="Id number..."
                                            class="form-username form-control" required>
                                 </div>
                                 <div class="form-group">

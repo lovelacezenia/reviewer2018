@@ -14,7 +14,7 @@ if(!isset($this->session->userdata['logged_in'])){
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/webtek.png">
     <title>Admin</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
