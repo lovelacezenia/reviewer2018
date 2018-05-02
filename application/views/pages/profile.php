@@ -42,7 +42,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                             <div class="col-md-6">
                                                 <div class="form-group has-danger">
                                                     <label class="control-label">Email</label>
-                                                    <input type="text" name="email" class="form-control form-control-danger" placeholder="email">
+                                                    <input type="text" name="email" class="form-control form-control-danger" placeholder="email" disabled>
                                                  </div>
                                             </div>
                                             <!--/span-->

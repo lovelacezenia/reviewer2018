@@ -34,4 +34,8 @@ class Reviewer extends CI_Controller
         redirect('classcode');
     }
 
+    public function editprofile(){
+        echo json_encode($this->rm->editprofile());
+    }
+
 }

@@ -94,8 +94,16 @@ if(!isset($this->session->userdata['logged_in'])){
                         </li>
                         
                         <li class="nav-label">Create Quiz</li>
-                        <li> <a href="createquiz" aria-expanded="false"><i class="fa fa-wpforms"></i><span class="hide-menu">Quiz</span></a>
+                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-wpforms"></i><span class="hide-menu">Quiz</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="createquiz">Create Quiz</a></li>
+                            </ul>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="#">Activities</a></li>
+                            </ul>
                         </li>
+
+
                         <li class="nav-label">Create Classcode</li>
                         <li> <a href="classcode" aria-expanded="false"><i class="fa fa-book"></i><span class="hide-menu">Classcode</span></a>
                         </li>
