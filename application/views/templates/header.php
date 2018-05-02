@@ -38,7 +38,6 @@
                     <li><a href="home">Home</a></li>
                     <li><a href="notes">Notes</a></li>
                     <li><a href="quiz">Quiz</a></li>
-                    <li><a href="video">Video</a></li>
                     <li><a href="developers">Developers</a></li>
                     <?php
                     if(!isset($this->session->userdata['logged_in'])){
