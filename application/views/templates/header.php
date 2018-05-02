@@ -39,7 +39,7 @@
                     <li><a href="notes">Notes</a></li>
                     <li><a href="quiz">Quiz</a></li>
                     <li><a href="video">Video</a></li>
-                    <li><a href="about">Our Team</a></li>
+                    <li><a href="developers">Our Team</a></li>
                     <?php
                     if(!isset($this->session->userdata['logged_in'])){
                         echo '<li><a href="login">Login</a></li>';
