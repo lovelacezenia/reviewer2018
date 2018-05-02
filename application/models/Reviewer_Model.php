@@ -17,7 +17,7 @@ class Reviewer_Model extends CI_Model
     }
 
     public function getEnrolledstudent(){
-        return $this->db->select('concat(firstname, " ", lastname) as name, idno')
+        return $this->db->select('concat(firstname, " ", lastname) as name, position, idno')
                     ->join('user', 'user.user_id = classcode.class_id')
                     ->get('classcode')
                     ->result_array();
@@ -34,5 +34,11 @@ class Reviewer_Model extends CI_Model
             'room'=> $this->input->post('room')
             );
         $this->db->insert('classcode',$data);
+    }
+
+    public function editprofile(){
+        return $this->db->select('concat(firstname, " ", lastname) as name, idno, email, password')
+                    ->get('user')
+                    ->result_array();
     }
 }
