@@ -11,7 +11,7 @@
 							<span class="icon"><i class="icon-pen3"></i></span>
 							<div class="desc">
 								<h3>Web Design</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<p>description</p>
 							</div>
 						</div>
 					</div>
@@ -20,7 +20,7 @@
 							<span class="icon"><i class="icon-diamond"></i></span>
 							<div class="desc">
 								<h3>Web Development</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<p>description</p>
 							</div>
 						</div>
 					</div>
@@ -28,8 +28,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-paperplane"></i></span>
 							<div class="desc">
-								<h3>Help &amp; Support</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>Java Servlets</h3>
+								<p>description</p>
 							</div>
 						</div>
 					</div>
@@ -39,8 +39,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-params"></i></span>
 							<div class="desc">
-								<h3>Marketing</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>Node JS</h3>
+								<p>description</p>
 							</div>
 						</div>
 					</div>
@@ -48,17 +48,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-photo"></i></span>
 							<div class="desc">
-								<h3>Digital Marketing</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="services">
-							<span class="icon"><i class="icon-bulb"></i></span>
-							<div class="desc">
-								<h3>Web Strategy</h3>
-								<p>Separated they live in Bookmarksgrove right at the coast</p>
+								<h3>Session Handling</h3>
+								<p>description</p>
 							</div>
 						</div>
 					</div>
