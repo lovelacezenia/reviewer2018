@@ -34,7 +34,7 @@
 								<div class="item">
 									<div class="testimony-slide text-center active">
 										<figure>
-											<img src="assets/images/person2.jpg" alt="user">
+											<img src="assets/images/graham.png" alt="user">
 										</figure>
 										<blockquote>
 											<p>Graham Ross H. Flora</p>
@@ -45,7 +45,7 @@
 								<div class="item">
 									<div class="testimony-slide text-center active">
 										<figure>
-											<img src="assets/images/person3.jpg" alt="user">
+											<img src="assets/images/lovelace.png" alt="user">
 										</figure>
 										<blockquote>
 											<p>Lovelace Zennia Luisa R. Oliva</p>
