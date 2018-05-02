@@ -2,7 +2,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>What I do</h2>
+						<h2>Overview</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -61,83 +61,6 @@
 								<p>Separated they live in Bookmarksgrove right at the coast</p>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="colorlib-work">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>Our Works</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-1.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Illustration</span>, <span>Logo</span></p>
-								<h3>Work 01</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-2.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Web Design</span>, <span>UI</span></p>
-								<h3>Work 02</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="#" class="work-img" style="background-image: url(assets/images/work-3.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Logo</span>, <span>Illustration</span></p>
-								<h3>Work 03</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-4.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Apps</span>, <span>Brand Identity</span></p>
-								<h3>Work 04</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-5.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Brand Identity</span>, <span>Logo</span></p>
-								<h3>Work 05</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-6.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Brand Identity</span>, <span>Logo</span></p>
-								<h3>Work 06</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
 					</div>
 				</div>
 			</div>
@@ -214,67 +137,3 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="colorlib-testimony" class="colorlib-light-grey">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>Our Client Says:</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="row animate-box">
-							<div class="owl-carousel1">
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="assets/images/person1.jpg" alt="user">
-										</figure>
-										<blockquote>
-											<p><i class="icon-quotes-left"></i> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-											<span>Andrew Field, Blogger</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="assets/images/person2.jpg" alt="user">
-										</figure>
-										<blockquote>
-											<p><i class="icon-quotes-left"></i> Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-											<span>Mark Bubble, Web Designer</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="assets/images/person3.jpg" alt="user">
-										</figure>
-										<blockquote>
-											<p><i class="icon-quotes-left"></i> Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-											<span>Adam Smith, Guest</span>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="colorlib-hire">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
-						<h2 class="heading">Are you looking for a web designer?</h2>
-						<p><a href="#" class="btn btn-primary btn-lg">Available for Hire!</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		
