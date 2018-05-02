@@ -18,11 +18,10 @@ if(!isset($this->session->userdata['logged_in'])){
                                        data-url="Reviewer/getEnrolledstudent">
                                         <thead>
                                             <tr>
-                                                <th data-sortable="true" data-field="timestamp">Timestamp</th>
                                                 <th data-sortable="true" data-field="idno">ID Number</th>
                                                 <th data-sortable="true" data-field="name">Name</th>
                                                 <th data-sortable="true" data-field="classcode">Classcode</th>
-                                                <th data-sortable="true" data-field="date">Date</th>
+                                                <th data-sortable="true" data-field="date">Date Enrolled</th>
                                             </tr>
                                         </thead>
                                     </table>
