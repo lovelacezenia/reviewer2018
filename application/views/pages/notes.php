@@ -13,7 +13,7 @@ if(!isset($this->session->userdata['logged_in'])){
 				</div>
 				<div class="row row-padded-bottom">
 					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-1.jpg);">
+						<a href="work-single" class="work-img" style="background-image: url(assets/images/work-1.jpg);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -24,7 +24,7 @@ if(!isset($this->session->userdata['logged_in'])){
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/work-2.jpg);">
+						<a href="work-single" class="work-img" style="background-image: url(assets/images/work-2.jpg);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
