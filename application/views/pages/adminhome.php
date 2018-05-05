@@ -16,7 +16,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2>568120</h2>
-                                    <p class="m-b-0">Total Revenue</p>
+                                    <p class="m-b-0">Total Student Enrolled</p>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2>1178</h2>
-                                    <p class="m-b-0">Sales</p>
+                                    <p class="m-b-0">Subject</p>
                                 </div>
                             </div>
                         </div>
