@@ -16,13 +16,14 @@ class Reviewer_Model extends CI_Model
                     ->result_array();
     }
 
-    public function getEnrolledstudent(){
-        return $this->db->select('concat(firstname, " ", lastname) as name, position, idno')
-                    ->join('user', 'user.user_id = classcode.class_id')
-                    ->get('classcode')
-                    ->result_array();
+    public function getEnrolledstudent()
+    {
+        return $this->db->select('concat(firstname, " ", lastname) as name, position, idno, classcode')
+            ->join('user', 'user.user_id = classcode.class_id')
+            ->where('position', 'Student')
+            ->get('classcode')
+            ->result_array();
     }
-    
     //for create classcode
     public function createclasscode(){
         $data = array(
