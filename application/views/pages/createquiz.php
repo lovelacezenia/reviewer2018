@@ -28,12 +28,11 @@ if(!isset($this->session->userdata['logged_in'])){
                                 </ul>
                                 <button class="btn btn-success hidden-xs-down" onclick="addrow();">+</button>
                                 <!-- Tab panes -->
-                                <div class="tab-content tabcontent-border">
-                                    <div class="tab-pane active" id="home" role="tabpanel">
+                                    <div class="tab-pane active" id="home" role="sec">
                                         <div class="p-20">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-7">
 
-                                            <h4 class="card-title">1. What is IIS?</h4>
+                                            <h4 class="card-title">type of quiz </h4>
                                             <div class="card-content">
                                                 <div class="todo-list">
                                                     <div class="tdl-holder">
@@ -48,18 +47,6 @@ if(!isset($this->session->userdata['logged_in'])){
                                                                 <li>
                                                                     <label>
                                                                         <input type="checkbox"><i class="bg-success"></i><span>Creating component page</span>
-                                                                        <a href='#'></a>
-                                                                    </label>
-                                                                </li>
-                                                                <li>
-                                                                    <label>
-                                                                        <input type="checkbox"><i class="bg-warning"></i><span>Follow back those who follow you</span>
-                                                                        <a href='#'></a>
-                                                                    </label>
-                                                                </li>
-                                                                <li>
-                                                                    <label>
-                                                                        <input type="checkbox"><i class="bg-danger"></i><span>Design One page theme</span>
                                                                         <a href='#'></a>
                                                                     </label>
                                                                 </li>
@@ -78,8 +65,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane  p-20" id="profile" role="tabpanel">2</div>
-                                </div>
+                                    <div class="tab-pane  p-20" id="sec" role="sec"> </div>
                             </div>
                         </div>
                     </div>
