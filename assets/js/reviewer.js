@@ -18,18 +18,18 @@ function togglediv(){
 }
 var counter = 1;
 function addrow(){
+    counter++;
     var tab = ' <li id="tab' + counter + '" class="nav-item">\n' +
-        '     <a  class="nav-link active" data-toggle="tab" href="#" role="tab">\n' +
+        '     <a  class="nav-link" data-toggle="tab" href="#" role="tab">\n' +
         '     <span class="hidden-sm-up"><i class="ti-home"></i></span>\n' +
         '     <span class="hidden-xs-down">Section ' +counter +' <a onclick="removerow('+counter+')" ' +
 		'class="btn btn-danger">x</a> </span>\n' +
         '     </a>\n' +
         '   </li>';
     var sec = '<div id="sec" role="sec"> </div>';
-
     $('#tab').append(tab);
     $('#sec').append(sec);
-    counter++;
+    $('#tab'+counter).find('.nav-link').click();
 }
 function removerow(id) {
 	$('#tab'+id).remove();
