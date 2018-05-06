@@ -32,6 +32,14 @@ function addrow(){
     $('#tab'+counter).find('.nav-link').click();
 }
 function removerow(id) {
-	$('#tab'+id).remove();
+	var tab = $('#tab'+id);
+	tab.prev().find('.nav-link').click();
+	tab.remove();
 
+}
+function addbutton(){
+	counter++;
+	var add = '<input id="add" type="text" class="tdl-new form-control" placeholder="Type here">\n' +
+        '      <button type="submit" class="btn btn-primary">Add '+ counter +'</button>';
+	$('#add').append(add);
 }

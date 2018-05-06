@@ -19,12 +19,6 @@ if(!isset($this->session->userdata['logged_in'])){
                                             <span class="hidden-xs-down">Section </span>
                                         </a>
                                     </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#" role="tab">
-                                            <span class="hidden-sm-up"><i class="ti-user"></i></span>
-                                        </a>
-                                    </li>
                                 </ul>
                                 <button class="btn btn-success hidden-xs-down" onclick="addrow();">+</button>
                                 <!-- Tab panes -->
@@ -52,8 +46,8 @@ if(!isset($this->session->userdata['logged_in'])){
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                        <input type="text" class="tdl-new form-control" placeholder="Type here">
-                                                        <button type="submit" class="btn btn-primary">Add</button>
+                                                        <input id="add" type="text" class="tdl-new form-control" placeholder="Type here">
+                                                        <button type="submit" class="btn btn-primary" onclick="addbutton();">Add</button>
                                                     </div>
                                                 </div>
                                             </div>
