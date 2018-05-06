@@ -12,11 +12,21 @@ if(!isset($this->session->userdata['logged_in'])){
                             <div class="card-body">
                                 <h4 class="card-title">Quiz</h4>
                                 <!-- Nav tabs -->
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Quiz 1</span></a> </li>
-                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab"><span class="hidden-sm-up"><i class="ti-user"></i></span> <span class="hidden-xs-down">Quiz 2</span></a> </li>
-                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#messages" role="tab"><span class="hidden-sm-up"><i class="ti-email"></i></span> <span class="hidden-xs-down">Quiz 3</span></a> </li>
+                                <ul id="tab" class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#" role="tab">
+                                            <span class="hidden-sm-up"><i class="ti-home"></i></span>
+                                            <span class="hidden-xs-down">Quiz 1</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#" role="tab">
+                                            <span class="hidden-sm-up"><i class="ti-user"></i></span>
+                                        </a>
+                                    </li>
                                 </ul>
+                                <button class="btn btn-success hidden-xs-down" onclick="addrow();">+</button>
                                 <!-- Tab panes -->
                                 <div class="tab-content tabcontent-border">
                                     <div class="tab-pane active" id="home" role="tabpanel">
@@ -69,7 +79,6 @@ if(!isset($this->session->userdata['logged_in'])){
                                         </div>
                                     </div>
                                     <div class="tab-pane  p-20" id="profile" role="tabpanel">2</div>
-                                    <div class="tab-pane p-20" id="messages" role="tabpanel">3</div>
                                 </div>
                             </div>
                         </div>
