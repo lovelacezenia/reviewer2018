@@ -16,4 +16,19 @@ function togglediv(){
 	$('#login').attr('hidden','hidden');
 
 }
+var counter = 1;
+function addrow(){
+    var tab = ' <li id="tab' + counter + '" class="nav-item">\n' +
+        '     <a  class="nav-link active" data-toggle="tab" href="#" role="tab">\n' +
+        '     <span class="hidden-sm-up"><i class="ti-home"></i></span>\n' +
+        '     <span class="hidden-xs-down">Section ' +counter +' <a onclick="removerow('+counter+')" ' +
+		'class="btn btn-danger">X</a> </span>\n' +
+        '     </a>\n' +
+        '   </li>';
+    $('#tab').append(tab);
+    counter++;
+}
+function removerow(id) {
+	$('#tab'+id).remove();
 
+}
