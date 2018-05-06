@@ -22,10 +22,13 @@ function addrow(){
         '     <a  class="nav-link active" data-toggle="tab" href="#" role="tab">\n' +
         '     <span class="hidden-sm-up"><i class="ti-home"></i></span>\n' +
         '     <span class="hidden-xs-down">Section ' +counter +' <a onclick="removerow('+counter+')" ' +
-		'class="btn btn-danger">X</a> </span>\n' +
+		'class="btn btn-danger">x</a> </span>\n' +
         '     </a>\n' +
         '   </li>';
+    var sec = '<div id="sec" role="sec"> </div>';
+
     $('#tab').append(tab);
+    $('#sec').append(sec);
     counter++;
 }
 function removerow(id) {
