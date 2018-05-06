@@ -16,7 +16,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="tab" href="#" role="tab">
                                             <span class="hidden-sm-up"><i class="ti-home"></i></span>
-                                            <span class="hidden-xs-down">Quiz 1</span>
+                                            <span class="hidden-xs-down">Section </span>
                                         </a>
                                     </li>
 
@@ -28,7 +28,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                 </ul>
                                 <button class="btn btn-success hidden-xs-down" onclick="addrow();">+</button>
                                 <!-- Tab panes -->
-                                    <div class="tab-pane active" id="home" role="sec">
+                                    <div id="tab1" role="sec">
                                         <div class="p-20">
                                         <div class="col-lg-7">
 
@@ -65,7 +65,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane  p-20" id="sec" role="sec"> </div>
+                                    <div class="tab-pane  p-20" id="sec1" role="sec">  </div>
                             </div>
                         </div>
                     </div>
