@@ -39,7 +39,23 @@ function removerow(id) {
 }
 function addbutton(){
 	counter++;
-	var add = '<input id="add" type="text" class="tdl-new form-control" placeholder="Type here">\n' +
-        '      <button type="submit" class="btn btn-primary">Add '+ counter +'</button>';
-	$('#add').append(add);
+	var num = $('#numberOfQuestions').val();
+	var inputArr = [];
+
+
+	for(var i=1;i<=num;i++){
+		inputArr.push('<label>Item '+i+'</label>' +
+			'<input class="form-control">' +
+			'<button class="btn btn-primary" onclick="addchoice('+i+')">Add Choice</button></br>' +
+            '<div id=q'+i+'></div>')
+	}
+        $('#inputQuestions').append(inputArr);
+
+}
+function addchoice(a){
+	counter++;
+	var addchoice = '<input id="addchoice" role="addchoice"></input></br>';
+	$('#q'+a).append(addchoice);
+
+
 }
