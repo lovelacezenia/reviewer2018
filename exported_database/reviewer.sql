@@ -30,7 +30,8 @@ CREATE TABLE `answer` (
   `class_id` int(15) NOT NULL,
   `score_id` int(15) NOT NULL,
   `quiz1` varchar(500) NOT NULL,
-  PRIMARY KEY (`answ_id`)
+  PRIMARY KEY (`answ_id`),
+  UNIQUE KEY `answ_id` (`answ_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -76,6 +77,32 @@ INSERT INTO `classcode` VALUES (1,'9345B','Web System and Technologies laborator
 UNLOCK TABLES;
 
 --
+-- Table structure for table `classes`
+--
+
+DROP TABLE IF EXISTS `classes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `classes` (
+  `classes_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `class_id` int(11) NOT NULL,
+  `date_enrolled` date NOT NULL,
+  PRIMARY KEY (`classes_id`),
+  UNIQUE KEY `classes_id` (`classes_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `classes`
+--
+
+LOCK TABLES `classes` WRITE;
+/*!40000 ALTER TABLE `classes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `classes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `scores`
 --
 
@@ -89,7 +116,8 @@ CREATE TABLE `scores` (
   `total_score` int(250) NOT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `user_id` int(11) NOT NULL,
-  PRIMARY KEY (`score_id`)
+  PRIMARY KEY (`score_id`),
+  UNIQUE KEY `score_id` (`score_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -148,4 +176,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-05-02 19:34:09
+-- Dump completed on 2018-05-10 18:05:22
