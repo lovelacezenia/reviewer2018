@@ -90,7 +90,7 @@
 			   			<div class="row">
 				   			<div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center slider-text">
 				   				<div class="slider-text-inner">
-				   					<h1>Servlets</h1>
+				   					<h1>Session Handling</h1>
 				   				</div>
 				   			</div>
 				   		</div>
