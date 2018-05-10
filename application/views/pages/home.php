@@ -19,8 +19,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-diamond"></i></span>
 							<div class="desc">
-								<h3>Web Development</h3>
-								<p>Developing a website in the internet.</p>
+								<h3>Java Servlets</h3>
+								<p>A java program that extends the capabilities of a server.</p>
 							</div>
 						</div>
 					</div>
@@ -28,8 +28,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-paperplane"></i></span>
 							<div class="desc">
-								<h3>Java Servlets</h3>
-								<p>A java program that extends the capabilities of a server.</p>
+								<h3>Scoped Object</h3>
+								<p>Object given a name and exposed in a given scope.</p>
 							</div>
 						</div>
 					</div>
