@@ -38,4 +38,8 @@ class Reviewer extends CI_Controller
         echo json_encode($this->rm->editprofile());
     }
 
+    public function totalofstudent(){
+       echo json_encode($this->rm->totalofstudent());
+    }
+
 }

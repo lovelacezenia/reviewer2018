@@ -12,10 +12,11 @@ if(!isset($this->session->userdata['logged_in'])){
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-usd f-s-40 color-primary"></i></span>
+                                    <span><i class="fa fa-user f-s-40 color-primary"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
-                                    <h2>568120</h2>
+                                    <h2 id="totalofstudent">
+                                    </h2>
                                     <p class="m-b-0">Total Student Enrolled</p>
                                 </div>
                             </div>
@@ -25,7 +26,7 @@ if(!isset($this->session->userdata['logged_in'])){
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-shopping-cart f-s-40 color-success"></i></span>
+                                    <span><i class="fa fa-book f-s-40 color-success"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2>1178</h2>
