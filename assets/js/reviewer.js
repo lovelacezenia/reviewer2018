@@ -44,7 +44,7 @@ function addbutton(){
 
 
 	for(var i=1;i<=num;i++){
-		inputArr.push('<label>Item '+i+'</label>' +
+		inputArr.push('<label>'+i+'</label>' +
 			'<input class="form-control">' +
 			'<button class="btn btn-primary" onclick="addchoice('+i+')">Add Choice</button></br>' +
             '<div id=q'+i+'></div>')
@@ -54,7 +54,7 @@ function addbutton(){
 }
 function addchoice(a){
 	counter++;
-	var addchoice = '<input id="addchoice" role="addchoice"></input></br>';
+	var addchoice = '<input type="radio" id="addchoice" role="addchoice">sample</input></br>';
 	$('#q'+a).append(addchoice);
 
 
