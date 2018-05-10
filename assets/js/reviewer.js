@@ -59,3 +59,8 @@ function addchoice(a){
 
 
 }
+
+//load for dashboard
+$(document).ready(function(){
+		$("#totalofstudent").load(adminhome/totalofstudent);
+});

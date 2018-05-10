@@ -31,7 +31,7 @@
 
 <body>
     <nav id="colorlib-main-nav" role="navigation">
-        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+        <a class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
         <div class="js-fullheight colorlib-table">
             <div class="colorlib-table-cell js-fullheight">
                 <ul>
@@ -39,6 +39,7 @@
                     <li><a href="notes">Notes</a></li>
                     <li><a href="quiz">Quiz</a></li>
                     <li><a href="developers">Developers</a></li>
+                    <?php echo $this->session->userdata['user_in']['name'];?>
                     <?php
                     if(!isset($this->session->userdata['logged_in'])){
                         echo '<li><a href="login">Login</a></li>';
@@ -55,7 +56,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+                        <a class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
                     </div>
                 </div>
             </div>
