@@ -17,31 +17,31 @@ if(!isset($this->session->userdata['logged_in'])){
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Illustration</span>, <span>Logo</span></p>
-								<h3>Notes</h3>
+								<h3>Servlet</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="servlet" class="work-img" style="background-image: url(assets/images/work-2.jpg);">
+						<a href="sessionhandler" class="work-img" style="background-image: url(assets/images/work-2.jpg);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Web Design</span>, <span>UI</span></p>
-								<h3>Notes</h3>
+								<h3>Session Handling</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
 					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<p class="prev-next">
-						<a href="#" class="previous text-left"><i class="icon-arrow-left4"></i> Previous</a>
-						<a href="#" class="next text-right">Next <i class="icon-arrow-right4"></i></a>
-					</p>
+					<div class="col-md-6 animate-box text-center">
+						<a href="ajax" class="work-img" style="background-image: url(assets/images/work-2.jpg);">
+							<div class="overlay"></div>
+							<div class="desc">
+								<span class="icon"><i class="icon-heart-outline"></i></span>
+								<h3>Ajax</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
