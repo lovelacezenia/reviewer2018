@@ -45,10 +45,8 @@ if(!isset($this->session->userdata['logged_in'])){
                 <div class="navbar-header">
                     <a class="navbar-brand" href="adminhome">
                         <!-- Logo icon -->
-                        <b><img src="assets/images/logo.png" alt="homepage" class="dark-logo" /></b>
+                        <b><img src="assets/images/webtek.png" width="60" height="60" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
-                        <!-- Logo text -->
-                        <span><img src="assets/images/logo-text.png" alt="homepage" class="dark-logo" /></span>
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -69,7 +67,8 @@ if(!isset($this->session->userdata['logged_in'])){
                         </li>
                         <!-- Profile -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/users/5.jpg" alt="user" class="profile-pic" /></a>
+                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user"></i></a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
                                     <li><a href="profile"><i class="ti-user"></i> Profile</a></li>
@@ -97,9 +96,6 @@ if(!isset($this->session->userdata['logged_in'])){
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-wpforms"></i><span class="hide-menu">Quiz</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="createquiz">Create Quiz</a></li>
-                            </ul>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">Activities</a></li>
                             </ul>
                         </li>
 

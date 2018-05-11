@@ -78,3 +78,11 @@ $(document).ready(function(){
 		}
 	});
 });
+
+//load of subject
+$(document).ready(function(){
+	$.get('Reviewer/subject', function(data){
+        $("#subject").html(JSON.parse(data));
+	});
+
+});

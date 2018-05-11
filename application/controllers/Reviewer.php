@@ -43,4 +43,8 @@ class Reviewer extends CI_Controller
        echo json_encode ($this->rm->totalofstudent());
     }
 
+    public function subject(){
+        echo json_encode($this->rm->subject());
+    }
+
 }
