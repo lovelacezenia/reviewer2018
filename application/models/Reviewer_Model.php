@@ -49,4 +49,10 @@ class Reviewer_Model extends CI_Model
              ->get('user')
              ->row()->totalofstudent;
     }
+
+    public function subject(){
+        return $this->db->select('count(class_id) as subject')
+        ->get('classcode')
+        ->row()->subject;
+    }
 }
