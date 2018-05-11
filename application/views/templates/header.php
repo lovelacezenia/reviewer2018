@@ -1,4 +1,8 @@
-
+<?php
+if(!isset($this->session->userdata['logged_in'])){
+    header('location: login');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,6 +43,7 @@
                     <li><a href="notes">Notes</a></li>
                     <li><a href="quiz">Quiz</a></li>
                     <li><a href="developers">Developers</a></li>
+
                     <?php echo $this->session->userdata['user_in']['name'];?>
                     <?php
                     if(!isset($this->session->userdata['logged_in'])){
