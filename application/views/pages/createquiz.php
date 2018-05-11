@@ -27,7 +27,12 @@ if(!isset($this->session->userdata['logged_in'])){
                                       <div class="col-lg-7">
                                            <h4 class="card-title">type of quiz </h4>
                                             <div class="row p-t-30" id="input">
-                                                <div class="col-md-4">
+                                                <div class="col-md-8">
+                                                    <div class="form-group">
+                                                        <label class="sr-only">Classcode</label>
+                                                        <select name="classcode" id="classcode" class="form-control">
+                                                        </select>
+                                                    </div>
                                                     <div class="form-group">
                                                         <select name="inputs" id="inputs" class="form-control">
                                                             <option value="1">Multiple Choices</option>
