@@ -54,7 +54,7 @@ function addbutton(){
 }
 function addchoice(a){
 	counter++;
-	var addchoice = '<input type="radio" id="addchoice" role="addchoice">sample</input></br>';
+	var addchoice = '<input type="text" id="addchoice" role="addchoice"></input></br>';
 	$('#q'+a).append(addchoice);
 
 
@@ -63,8 +63,19 @@ function addchoice(a){
 //load for dashboard
 $(document).ready(function(){
 	$.get('Reviewer/totalofstudent', function(data){
-        $("#totalofstudent").load(adminhome/totalofstudent);
         $("#totalofstudent").html(JSON.parse(data));
 	});
 
+});
+
+//editprofile
+$(document).ready(function(){
+	$.ajax({
+		url: 'Reviewer/editprofile',
+		dataType: 'JSON',
+		success: function(data){
+			console.log(data);
+			//$('firstname').val(data.name);
+		}
+	});
 });
