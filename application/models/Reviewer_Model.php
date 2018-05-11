@@ -47,6 +47,6 @@ class Reviewer_Model extends CI_Model
         return $this->db->select('count(user_id) as totalofstudent, position')
              ->where ('position', 'Student')
              ->get('user')
-            ->result_array();
+            ->row()->totalofstudent;
     }
 }
