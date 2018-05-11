@@ -68,7 +68,7 @@
 		</div>
 	</nav>
 	
-		</header>
+		
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
