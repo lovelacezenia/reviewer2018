@@ -51,12 +51,14 @@ if (isset($this->session->userdata['logged_in'])) {
                             <div class="form-bottom">
                                 <form role="form" action="" method="post" class="login-form">
                                     <div class="form-group">
-                                        <label class="sr-only" for="form-username">ID Number</label>
+                                        <i class="fa fa-address-card-o"></i>
+                                        <label class="control-label">ID Number</label>
                                         <input type="text" name="idno" min="0" placeholder="Username..."
                                                class="form-username form-control">
                                     </div>
                                     <div class="form-group">
-                                        <label class="sr-only" for="form-password">Password</label>
+                                        <i class="fa fa-key"></i>
+                                        <label class="control-label">Password</label>
                                         <input type="password" name="password" placeholder="Password..."
                                                class="form-password form-control">
                                     </div>
@@ -87,37 +89,45 @@ if (isset($this->session->userdata['logged_in'])) {
                         <form method="POST" action="Login/signup">
                             <div class="form-bottom">
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-first-name">First name</label>
+                                    <i class="fa fa-user"></i>
+                                    <label class="control-label">First Name</label>
                                     <input type="text" name="firstname" id="firstname" placeholder="First name..."
                                            class="form-first-name form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-last-name">Last name</label>
+                                    <i class="fa fa-user"></i>
+                                    <label class="control-label">Last Name</label>
                                     <input type="text" name="lastname" id="lastname" placeholder="Last name..."
                                            class="form-last-name form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-email">Email</label>
+                                    <i class="fa fa-envelope"></i>
+                                    <label class="control-label">Email</label>
                                     <input type="text" name="email" id="email" placeholder="Email..."
                                            class="form-email form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-username">ID Number</label>
+                                    <i class="fa fa-address-card-o"></i>
+                                    <label class="control-label">ID Number</label>
                                     <input type="text" name="idno" min="0" placeholder="Id number..."
                                            class="form-username form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-password">Password</label>
+                                    <i class="fa fa-key"></i>
+                                    <label class="control-label">Password</label>
                                     <input type="password" name="password" placeholder="Password..."
                                            class="form-password form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-password">Confirm Password</label>
+                                    <i class="fa fa-key"></i>
+                                    <label class="control-label">Confirm  Password</label>
                                     <input type="password" name="confirmpass" id="confirmpass"
                                            placeholder="Confirm Password..." class="form-password form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-password">Contact no.</label>
+                                    <i class="fa fa-phone"></i>
+                                    <label class="control-label">Contact no.</label>
+                                
                                     <input type="text" placeholder="contact no..." min= "0" name="contact_no" id="contact_no"
                                            class="form-password form-control" required>
                                 </div>
@@ -127,7 +137,8 @@ if (isset($this->session->userdata['logged_in'])) {
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label class="sr-only" for="form-password">Position</label>
+                                    <i class="fa fa-user"></i>
+                                    <label class="control-label">Position</label>
                                     <select name="position" id="position" class="form-control">
                                         <option value="Student">Student</option>
                                         <option value="Admin">Teacher</option>

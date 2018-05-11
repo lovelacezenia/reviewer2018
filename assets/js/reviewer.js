@@ -75,7 +75,6 @@ $(document).ready(function(){
 		dataType: 'JSON',
 		success: function(data){
 			console.log(data);
-			//$('firstname').val(data.name);
 		}
 	});
 });

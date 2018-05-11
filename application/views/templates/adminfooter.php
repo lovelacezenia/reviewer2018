@@ -39,6 +39,7 @@
     <!-- scripit init-->
 
     <script src="assets/js/custom.min.js"></script>
+    <script src="assets/js/parsley.min.js"></script>
 
 </body>
 
