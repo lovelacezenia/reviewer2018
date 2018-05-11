@@ -62,5 +62,9 @@ function addchoice(a){
 
 //load for dashboard
 $(document).ready(function(){
-		$("#totalofstudent").load(adminhome/totalofstudent);
+	$.get('Reviewer/totalofstudent', function(data){
+        $("#totalofstudent").load(adminhome/totalofstudent);
+        $("#totalofstudent").html(JSON.parse(data));
+	});
+
 });
