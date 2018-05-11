@@ -10,8 +10,8 @@
 						<div class="services">
 							<span class="icon"><i class="icon-pen3"></i></span>
 							<div class="desc">
-								<h3>Web Design</h3>
-								<p>The creation of looks, layout and features of a website.</p>
+								<h3>PHP</h3>
+								<p>is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.</p>
 							</div>
 						</div>
 					</div>
