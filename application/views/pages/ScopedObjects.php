@@ -68,19 +68,6 @@
 		</div>
 	</nav>
 	
-	<div id="colorlib-page">
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="colorlib-navbar-brand">
-							<a class="colorlib-logo" href="index.html">Suitcase</a>
-						</div>
-						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-					</div>
-				</div>
-			</div>
-		</header>
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
@@ -102,112 +89,40 @@
 		<div id="colorlib-work">
 			<div class="container">
 				<div class="row row-padded-bottom">
-					<div class="col-md-7 animate-box">
-						<img class="img-responsive" src="images/work-1.jpg" alt="work">
-						<img class="img-responsive" src="images/work-2.jpg" alt="work">
-						<img class="img-responsive" src="images/work-3.jpg" alt="work">
-						<img class="img-responsive" src="images/work-4.jpg" alt="work">
+					<div class="col-md-6 animate-box">
+					<h1>Scoped Objects(in Java Web)</h1>
+					<p>-Object given a name and exposed in a given scope.</p>
+
+					<h1>Types of Scoped Object:</h1>
+					<h2>1. Context Scope</h2>
+					<p>-Starts from the point where a web application is put into service (started) till it is removed from service (shutdown) or the web application is reloaded. Parameters/attributes within the application scope will be available to all requests and sessions.</p> 
+					<p>-Available to everything as long as the application is running</p>
+					<p>-Represents by Servlet Context</p>
+				    <h2>2. Request Scope</h2>
+				    <p>-Start from the moment an HTTP request hits a servlet in our web container and end when the servlet is done with delivering the HTTP response.</p>
+
+						
 					</div>
-					<div class="col-md-4 col-md-push-1 animate-box">
+					<div class="col-md-6 col-md-push-1 animate-box">
 						<div class="work-detail">
-							<p class="tag"><span>Illustration</span>, <span>Logo</span></p>
-							<h2>Work 01</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							<p><a href="#" class="btn btn-primary">View Live Preview</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h2>Related Works</h2>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(images/work-1.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Illustration</span>, <span>Logo</span></p>
-								<h3>Work 01</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(images/work-2.jpg);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<p class="tag"><span>Web Design</span>, <span>UI</span></p>
-								<h3>Work 02</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
+						<h3>3. Session Scope</h3>
+						<p>-A session scope starts when a client (e.g. browser window) establishes connection with our web application till the point where the browser window is closed.</p>
+						<p>-Session scope spans across multiple requests from the same client.</p>
+                   		<p>-Session scope is denoted by javax.servlet.http.HttpSession interface.</p>
+						<p>-Session object is available in a JSP page as an implicit object called session.</p> 
+						<p>-In a servlet, you can get Session object by calling request.getSession().</p>
+						<h3>4. JSP page Scope</h3>
+						<p>-The page scope restricts the scpoe and lifetime of attributes to the same page where it was created.</p>
+						<p>-It is available in a JSP page as an implicit object called pageScope.</p>
 
-		<div id="colorlib-hire" class="colorlib-light-grey">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
-						<h2 class="heading">Are you looking for a web designer?</h2>
-						<p><a href="#" class="btn btn-primary btn-lg">Available for Hire!</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
+							
 
-		<footer>
-			<div id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-pb-sm">
-							<div class="row">
-								<div class="col-md-10">
-									<h2>Suitcase</h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-									<div class="row">
-										<div class="col-md-6">
-											<p>From the countries Vokalia and Consonantia</p>
-										</div>
-										<div class="col-md-6">
-											<p>Far far away, behind the word mountains</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-pb-sm">
-							<h2>Newsletter</h2>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
-							<div class="subscribe text-center">
-								<div class="form-group">
-									<input type="text" class="form-control text-center" placeholder="Enter Email address">
-									<input type="submit" value="Subscribe" class="btn btn-primary btn-custom">
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-pb-sm right-display">
-							<h2>Follow Us</h2>
-							<p class="colorlib-social-icons colorlib-social-icons2">
-								<a href="#"><i class="icon-facebook4"></i></a>
-								<a href="#"><i class="icon-twitter3"></i></a>
-								<a href="#"><i class="icon-googleplus"></i></a>
-								<a href="#"><i class="icon-dribbble2"></i></a>
-							</p>
-							<p>
-								<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><br></span> 
-								<span class="block">Demo Images: <a href="http://nothingtochance.co/" target="_blank">nothingtochance.co</a> <a href="http://unsplash.co/" target="_blank">Unsplash</a></span>
-							</p>
-						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
-	
+			
+		  </div>
+				
+		</div>
 	</div>
 
 	<!-- jQuery -->
