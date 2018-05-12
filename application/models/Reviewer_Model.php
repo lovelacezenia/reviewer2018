@@ -38,9 +38,8 @@ class Reviewer_Model extends CI_Model
     }
 
     public function editprofile(){
-        return $this->db->select('concat(firstname, " ", lastname) as name, idno, email, password')
-                    ->get('user')
-                    ->result_array();
+        return $this->db->get('user')
+                    ->row();
     }
 
     public function totalofstudent(){

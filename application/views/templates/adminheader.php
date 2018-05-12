@@ -71,7 +71,7 @@ if(!isset($this->session->userdata['logged_in'])){
                             <i class="fa fa-user"></i></a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
-                                    <li><a href="profile"><i class="ti-user"></i> Profile</a></li>
+                                    <li><a onclick="" href="profile"><i class="ti-user"></i> Profile</a></li>
                                     <li><a href="login/logout"><i class="fa fa-power-off"></i> Logout</a></li>
                                 </ul>
                             </div>

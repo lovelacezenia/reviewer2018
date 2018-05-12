@@ -74,7 +74,11 @@ $(document).ready(function(){
 		url: 'Reviewer/editprofile',
 		dataType: 'JSON',
 		success: function(data){
-			console.log(data);
+			$('#firstname').val(data.firstname);
+			$('#lastname').val(data.lastname);
+			$('#idno').val(data.idno);
+			$('#email').val(data.email);
+			$('#password').val(data.password);
 		}
 	});
 });

@@ -35,8 +35,8 @@ class Reviewer extends CI_Controller
     }
 
     public function editprofile(){
-        $this->rm->editprofile();
-        redirect('profile');
+        echo json_encode($this->rm->editprofile());
+
     }
 
     public function totalofstudent(){

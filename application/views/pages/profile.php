@@ -30,7 +30,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                                 <div class="form-group has-danger">
                                                     <i class="fa fa-user"></i>
                                                     <label class="control-label">Last Name</label>
-                                                    <input type="text" name="lastname" class="form-control form-control-danger" placeholder="lastname" disabled>
+                                                    <input type="text" name="lastname" id="lastname" class="form-control form-control-danger" placeholder="lastname" disabled>
                                                  </div>
                                             </div>
 
@@ -38,7 +38,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                                 <div class="form-group">
                                                     <i class="fa fa-address-card-o"></i>
                                                     <label class="control-label">ID Number</label>
-                                                    <input type="text" name="idno" min="0" class="form-control" placeholder="id number" disabled>
+                                                    <input type="text" name="idno" id="idno" min="0" class="form-control" placeholder="id number" disabled>
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -46,7 +46,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                                 <div class="form-group has-danger">
                                                     <i class="fa fa-envelope"></i>
                                                     <label class="control-label">Email</label>
-                                                    <input type="text" name="email" class="form-control form-control-danger" placeholder="email" disabled>
+                                                    <input type="text" name="email" id="email" class="form-control form-control-danger" placeholder="email" disabled>
                                                  </div>
                                             </div>
                                             <!--/span-->
@@ -54,7 +54,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                                 <div class="form-group has-danger">
                                                     <i class="fa fa-key"></i>
                                                     <label class="control-label">Password</label>
-                                                    <input type="password" name="password" class="form-control form-control-danger" placeholder="**">
+                                                    <input type="password" name="password" id="password" class="form-control form-control-danger" placeholder="**">
                                                  </div>
                                             </div>
                                             <!--/span-->
