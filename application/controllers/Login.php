@@ -52,10 +52,8 @@ class Login extends CI_Controller
                     }
                 }
             } else {
-                $data = array(
-                    'error_message' => 'Invalid Username or Password'
-                );
-                $this->load->view('pages/login', $data);
+                $this->session->set_flashdata('error_message','Invalid Username or Password');
+                redirect('login');
             }
         }
 
