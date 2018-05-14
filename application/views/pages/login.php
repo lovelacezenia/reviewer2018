@@ -41,7 +41,12 @@ if (isset($this->session->userdata['logged_in'])) {
                         <div class="form-top">
                             <div class="form-top-left">
                                 <h3>Login to our site</h3>
-                                <p>Enter username and password to log in:</p>
+                                <?php if($this->session->flashdata()){
+                                    echo '<p> '.$this->session->flashdata('error_message').'</p>';
+                                }else{
+                                    echo '<p id=\"flash_message\">Enter username and password to log in:</p>';
+                                }
+                                ?>
                             </div>
                             <div class="form-top-right">
                                 <i class="fa fa-lock"></i>
