@@ -38,6 +38,32 @@ if(!isset($this->session->userdata['logged_in'])){
                 </div>
                 </div>
 
+            <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-title">
+                                <h4>Recent Enrolled Student </h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="myTable" class="table" data-pagination="true"
+                                       data-toggle="table"
+                                       data-url="Reviewer/getScores">
+                                        <thead>
+                                            <tr>
+                                                <th data-sortable="true" data-field="timestamp">Timestamp</th>
+                                                <th data-sortable="true" data-field="idno">ID Number</th>
+                                                <th data-sortable="true" data-field="name">Name</th>
+                                                <th data-sortable="true" data-field="score">Score</th>
+                                                <th data-sortable="true" data-field="total_score">Total Score</th>
+                                                <th data-sortable="true" data-field="quiz_date">Date</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- End PAge Content -->
             </div>

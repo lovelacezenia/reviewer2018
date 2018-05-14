@@ -11,7 +11,6 @@ if(!isset($this->session->userdata['logged_in'])){
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Enrolled Students</h4>
-                                <h6 class="card-subtitle">Data table example</h6>
                                 <div class="table-responsive m-t-40">
                                     <table id="myTable" class="table table-bordered table-striped" data-pagination="true" data-search="true"
                                        data-toggle="table"
