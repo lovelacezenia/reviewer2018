@@ -42,6 +42,7 @@ class Login extends CI_Controller
                         'name' => $result->name,
                         'email' => $result->email,
                         'contact_no' => $result->contact_no,);
+
                     $this->session->set_userdata('user_in', $user_data);
                     $this->session->set_userdata('logged_in', $session_data);
                     if ($result->position === 'Admin') {

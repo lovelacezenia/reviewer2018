@@ -54,7 +54,11 @@ function addbutton(){
 }
 function addchoice(a){
 	counter++;
-	var addchoice = '<input type="text" id="addchoice" role="addchoice"></input></br>';
+	var addchoice = '<div class="form-group col-md-12">' +
+					'<input type="radio" class="col-md-1 pull-left">' +
+					'<input class="form-control col-sm-4" type="text" id="addchoice" role="addchoice">' +
+					'</br>' +
+					'</div>';
 	$('#q'+a).append(addchoice);
 
 

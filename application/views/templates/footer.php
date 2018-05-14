@@ -18,9 +18,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</footer>
 	
 	</div>
-	<script src="assets/js/modernizr-2.6.2.min.js"></script>
+	<script src="assets/js/lib/jquery/jquery.min.js"></script>
+ <script src="assets/js/modernizr-2.6.2.min.js"></script>
 	<!-- jQuery -->
-	<script src="assets/js/jquery.min.js"></script>
+	
 	<!-- jQuery Easing -->
 	<script src="assets/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
