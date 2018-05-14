@@ -38,7 +38,9 @@ class Reviewer_Model extends CI_Model
     }
 
     public function editprofile(){
-        return $this->db->get('user')
+        $idno = $this->session->userdata['logged_in']['idno'];
+        return $this->db ->where('idno', $idno)
+                    ->get('user')
                     ->row();
     }
 
@@ -53,5 +55,23 @@ class Reviewer_Model extends CI_Model
         return $this->db->select('count(class_id) as subject')
         ->get('classcode')
         ->row()->subject;
+    }
+
+    //save password
+    public function save(){
+        $idno = $this->session->userdata['logged_in']['idno'];
+        $password = $this->input->post('password');
+        $this->db->where('idno', $idno);
+        $this->db->set('password', $password);
+        $this->db->update('user');
+    }
+
+    //recent enrolled student
+    public function recentenrolled(){
+        return $this->db->select('concat(firstname, " " ,lastname) as name, idno, contact_no, email, timestamp')
+        ->where('position','student')
+        ->order_by('timestamp', 'desc')
+        ->get('user')
+        ->result_array();
     }
 }
