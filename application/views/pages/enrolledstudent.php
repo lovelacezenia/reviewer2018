@@ -14,7 +14,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                 <div class="table-responsive m-t-40">
                                     <table id="myTable" class="table table-bordered table-striped" data-pagination="true" data-search="true"
                                        data-toggle="table"
-                                       data-url="Reviewer/getEnrolledstudent">
+                                       data-url="Reviewer/recentenrolled">
                                         <thead>
                                             <tr>
                                                 <th data-sortable="true" data-field="idno">ID Number</th>

@@ -65,4 +65,13 @@ class Reviewer_Model extends CI_Model
         $this->db->set('password', $password);
         $this->db->update('user');
     }
+
+    //recent enrolled student
+    public function recentenrolled(){
+        return $this->db->select('concat(firstname, " " ,lastname) as name, idno, contact_no, email, timestamp');
+        ->where('position','student' and class_id='2');
+        ->order_by('timestamp', 'desc');
+        ->get('user');
+        ->result_array();
+    }
 }
