@@ -50,5 +50,9 @@ class Reviewer extends CI_Controller
         $this->rm->save();
         redirect('profile');
     }
+    //curent enrolled student
+    public function recentenrolled(){
+        echo json_encode($this->rm->recentenrolled());
+    }
 
 }
