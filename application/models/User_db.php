@@ -13,9 +13,10 @@ class User_db extends CI_Model
         $uname = $this->db->get('user')->row();
 
         $password = $data['password'];
-        if ($uname == true) {
+
+        if (isset($uname)) {
             if (password_verify($password, $uname->password)) {
-                return true;
+                return $uname;
             }
         }
             return false;
@@ -25,7 +26,7 @@ class User_db extends CI_Model
     public function signup()
     {
         $password = $this->input->post('password');
-        $options = ['cost' => 12];
+        $options = array('cost' => 12);
         $hashpassword =  password_hash($password, PASSWORD_DEFAULT, $options);
 
         $data = array(

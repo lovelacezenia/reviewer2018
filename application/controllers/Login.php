@@ -20,17 +20,12 @@ class Login extends CI_Controller
     public function user_login_process()
     {
 
-                $this->load->view('templates/header');
-           
             $data = array(
                 'idno' => $this->input->post('idno'),
                 'password' => $this->input->post('password')
             );
             $result = $this->user_db->login($data);
-            if ($result == TRUE) {
-                $idno = $this->input->post('idno');
-                if ($result != false) {
-                    
+            if ($result) {
                     $session_data = array(
                         'idno' => $result->idno,
                         'position' => $result->position,
@@ -50,10 +45,9 @@ class Login extends CI_Controller
                     } else {
                         redirect(base_url() . 'home');
                     }
-                }
             } else {
                 $this->session->set_flashdata('error_message','Invalid Username or Password');
-                redirect('login');
+                redirect(base_url() . 'login');
             }
         }
 

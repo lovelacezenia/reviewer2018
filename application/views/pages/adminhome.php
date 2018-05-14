@@ -1,8 +1,3 @@
-<?php
-if(!isset($this->session->userdata['logged_in'])){
-    header('location: login');
-}
-?>
     <!-- End Bread crumb -->
             <!-- Container fluid  -->
             <div class="container-fluid">
