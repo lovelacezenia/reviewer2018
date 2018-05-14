@@ -41,7 +41,7 @@ if(!isset($this->session->userdata['logged_in'])){
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-2">
                                                     <div class="form-group">
                                                         <input id="numberOfQuestions" type="text" class="tdl-new form-control" min="0" placeholder="Typeno">
                                                     </div>
