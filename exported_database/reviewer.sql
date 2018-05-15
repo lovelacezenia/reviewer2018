@@ -18,30 +18,28 @@ USE `reviewer`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `answer`
+-- Table structure for table `activities`
 --
 
-DROP TABLE IF EXISTS `answer`;
+DROP TABLE IF EXISTS `activities`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `answer` (
-  `answ_id` int(15) NOT NULL AUTO_INCREMENT,
-  `user_id` int(15) NOT NULL,
-  `class_id` int(15) NOT NULL,
-  `score_id` int(15) NOT NULL,
-  `quiz1` varchar(500) NOT NULL,
-  PRIMARY KEY (`answ_id`),
-  UNIQUE KEY `answ_id` (`answ_id`)
+CREATE TABLE `activities` (
+  `act_id` int(250) NOT NULL AUTO_INCREMENT,
+  `quiz_id` int(250) NOT NULL,
+  `user_id` int(250) NOT NULL,
+  `student_id` int(250) NOT NULL,
+  PRIMARY KEY (`act_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `answer`
+-- Dumping data for table `activities`
 --
 
-LOCK TABLES `answer` WRITE;
-/*!40000 ALTER TABLE `answer` DISABLE KEYS */;
-/*!40000 ALTER TABLE `answer` ENABLE KEYS */;
+LOCK TABLES `activities` WRITE;
+/*!40000 ALTER TABLE `activities` DISABLE KEYS */;
+/*!40000 ALTER TABLE `activities` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -103,6 +101,32 @@ LOCK TABLES `classes` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `quiz`
+--
+
+DROP TABLE IF EXISTS `quiz`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `quiz` (
+  `quiz_id` int(250) NOT NULL AUTO_INCREMENT,
+  `quiz file` varchar(250) NOT NULL,
+  `instructor_id` int(250) NOT NULL,
+  PRIMARY KEY (`quiz_id`,`instructor_id`),
+  UNIQUE KEY `instructor_id` (`instructor_id`),
+  UNIQUE KEY `quiz_id` (`quiz_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `quiz`
+--
+
+LOCK TABLES `quiz` WRITE;
+/*!40000 ALTER TABLE `quiz` DISABLE KEYS */;
+/*!40000 ALTER TABLE `quiz` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `scores`
 --
 
@@ -154,7 +178,7 @@ CREATE TABLE `user` (
   UNIQUE KEY `user_id` (`user_id`),
   UNIQUE KEY `idno` (`idno`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -163,7 +187,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'Lovelace','Oliva',2144074,'094868745151','1234','oliva@gmail.com','2018-04-23 07:26:27.166411','Admin','Active','2'),(3,'Sarah','Centino',2152834,'09057747156','12345','2152834@slu.edu.ph','2018-04-23 10:27:24.409749','Student','Active','2'),(4,'Graham','Flora',2162807,'09094326717','1234','grahamrossflora@yahoo.com','2018-04-29 11:14:41.745363','Admin','Active','1'),(5,'Yves','Ragsac',2156059,'09057243781','1234','Yvesragsac@gmail.com','2018-04-29 11:16:23.489574','Student','Active','1'),(6,'Dianne','Cayabyab',2152813,'09058716387','1234','Diannecayabyab@gmail.com','2018-04-29 11:33:48.304951','Student','Active','2');
+INSERT INTO `user` VALUES (8,'Sarah','Centino',2152834,'09173715332','$2y$12$aGaWyYE4HGLpdBmXHim.De1BGRknSW.EiVfnEWA4cJEUBhI2l14Li','sarah@gmail.com','2018-05-14 17:02:56.325699','Student','Active','2'),(7,'lovelace','oliva',2144074,'09057243782','$2y$12$utMDsdsQX0XX/XJ3a49Ix.w9CdQoX6JHXXszOGhxCwLkPVcSZmvh6','oliva@gmail.com','2018-05-14 17:00:42.746369','Admin','Active','2');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -176,4 +200,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-05-10 18:05:22
+-- Dump completed on 2018-05-15  9:28:29
