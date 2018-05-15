@@ -1,8 +1,4 @@
-<?php
-if(!isset($this->session->userdata['logged_in'])){
-    header('location: login');
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,17 +38,8 @@ if(!isset($this->session->userdata['logged_in'])){
                     <li><a href="home">Home</a></li>
                     <li><a href="notes">Notes</a></li>
                     <li><a href="quiz">Quiz</a></li>
+                    <li><a href="video">Video Tutorials</a></li>
                     <li><a href="developers">Developers</a></li>
-                    <li><a href="studprofile">Profile</a></li>
-
-                    <?php echo $this->session->userdata['user_in']['name'];?>
-                    <?php
-                    if(!isset($this->session->userdata['logged_in'])){
-                        echo '<li><a href="login">Login</a></li>';
-                    }else{
-                        echo '<li><a href="login/logout">Logout</a></li>';
-                    }
-                    ?>
                 </ul>
             </div>
         </div>
@@ -102,8 +89,8 @@ if(!isset($this->session->userdata['logged_in'])){
                         <div class="row">
                             <div class="col-md-8 col-sm-12 col-md-offset-2 col-md-pull-2 slider-text">
                                 <div class="slider-text-inner">
-                                    <h2>Sharing will enrich everyone with more knowledge.</h2>
-                                    <h1> - Ana Monnar </h1>
+                                    <h2>Sites need to be able to interact in one single, universal space.</h2>
+                                    <h1> - Tim Berners-Lee </h1>
                                 </div>
                             </div>
                         </div>

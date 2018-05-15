@@ -1,8 +1,3 @@
-<?php
-if(!isset($this->session->userdata['logged_in'])){
-    header('location: login');
-}
-?>
 
 <div id="colorlib-work">
 			<div class="container-fluid">
@@ -27,7 +22,17 @@ if(!isset($this->session->userdata['logged_in'])){
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Servlet</h3>
+								<h3>Java Web Servlet</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="servlet" class="work-img" style="background-image: url(assets/images/servlets.png);">
+							<div class="overlay"></div>
+							<div class="desc">
+								<span class="icon"><i class="icon-heart-outline"></i></span>
+								<h3>Java Server Pages</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
@@ -43,11 +48,11 @@ if(!isset($this->session->userdata['logged_in'])){
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="ajax" class="work-img" style="background-image: url(assets/images/ajax.png);">
+						<a href="ScopedObjects" class="work-img" style="background-image: url(assets/images/so.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Ajax</h3>
+								<h3>Scoped Objects</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
@@ -57,7 +62,17 @@ if(!isset($this->session->userdata['logged_in'])){
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Scoped Objects</h3>
+								<h3>Node JS</h3>
+								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 animate-box text-center">
+						<a href="ScopedObjects" class="work-img" style="background-image: url(assets/images/so.png);">
+							<div class="overlay"></div>
+							<div class="desc">
+								<span class="icon"><i class="icon-heart-outline"></i></span>
+								<h3>OWASP Top 10 Web Application Security Risks</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>

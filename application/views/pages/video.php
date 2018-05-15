@@ -1,9 +1,3 @@
-<?php
-if(!isset($this->session->userdata['logged_in'])){
-    header('location: login');
-}
-?>
-
 <div id="colorlib-blog">
 			<div class="container">
 				<div class="row">
@@ -73,17 +67,6 @@ if(!isset($this->session->userdata['logged_in'])){
 								</ul>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="colorlib-hire" class="colorlib-light-grey">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
-						<h2 class="heading">Are you looking for a web designer?</h2>
-						<p><a href="#" class="btn btn-primary btn-lg">Available for Hire!</a></p>
 					</div>
 				</div>
 			</div>
