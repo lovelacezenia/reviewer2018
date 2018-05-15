@@ -55,4 +55,10 @@ class Reviewer extends CI_Controller
         echo json_encode($this->rm->recentenrolled());
     }
 
+    public function sendQuizFile(){
+        $myfile = fopen("quiz.html", "w");
+        $txt = $this->input->post('content');
+        fwrite($myfile, $txt);
+        fclose($myfile);
+    }
 }
