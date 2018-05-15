@@ -140,7 +140,7 @@ CREATE TABLE `scores` (
   `total_score` int(250) NOT NULL,
   `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `user_id` int(11) NOT NULL,
-  PRIMARY KEY (`score_id`),
+  PRIMARY KEY (`user_id`),
   UNIQUE KEY `score_id` (`score_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -187,7 +187,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (8,'Sarah','Centino',2152834,'09173715332','$2y$12$aGaWyYE4HGLpdBmXHim.De1BGRknSW.EiVfnEWA4cJEUBhI2l14Li','sarah@gmail.com','2018-05-14 17:02:56.325699','Student','Active','2'),(7,'lovelace','oliva',2144074,'09057243782','$2y$12$utMDsdsQX0XX/XJ3a49Ix.w9CdQoX6JHXXszOGhxCwLkPVcSZmvh6','oliva@gmail.com','2018-05-14 17:00:42.746369','Admin','Active','2');
+INSERT INTO `user` VALUES (3,'Sarah','Centino',2152834,'09173715332','$2y$12$aGaWyYE4HGLpdBmXHim.De1BGRknSW.EiVfnEWA4cJEUBhI2l14Li','sarah@gmail.com','2018-05-14 17:02:56.325699','Student','Active','2'),(7,'lovelace','oliva',2144074,'09057243782','$2y$12$utMDsdsQX0XX/XJ3a49Ix.w9CdQoX6JHXXszOGhxCwLkPVcSZmvh6','oliva@gmail.com','2018-05-14 17:00:42.746369','Admin','Active','2');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -200,4 +200,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-05-15  9:28:29
+-- Dump completed on 2018-05-15  9:54:52

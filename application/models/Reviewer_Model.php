@@ -68,7 +68,7 @@ class Reviewer_Model extends CI_Model
 
     //recent enrolled student
     public function recentenrolled(){
-        return $this->db->select('concat(firstname, " " ,lastname) as name, idno, contact_no, email, timestamp')
+        return $this->db->select('concat(firstname, " " ,lastname) as name, idno, timestamp')
         ->where('position','student')
         ->order_by('timestamp', 'desc')
         ->get('user')

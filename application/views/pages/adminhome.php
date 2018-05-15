@@ -42,7 +42,7 @@
                                 <div class="table-responsive">
                                     <table id="myTable" class="table" data-pagination="true"
                                        data-toggle="table"
-                                       data-url="Reviewer/getScores">
+                                       data-url="Reviewer/recentenrolled">
                                         <thead>
                                             <tr>
                                                 <th data-sortable="true" data-field="timestamp">Timestamp</th>
